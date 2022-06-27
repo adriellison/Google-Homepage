@@ -1,0 +1,36 @@
+/* Main */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 145px 8px 0;
+}
+
+.content__logo {
+    height: 92px;
+}
+
+.content__search {
+    margin-top: 18px;
+    width: 100%;
+    height: 46px;
+    max-width: 584px;
+    padding: 20px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.87);
+    background: transparent;
+    border-radius: 25px;
+    border: 1px solid #dadce0;
+    outline: 0;
+}
+
+.content__offer {
+    margin-top: 25px;
+    font-size: 13px;
+    padding: 6px 12px;
+}
+
+.content__offer a {
+    text-decoration: none;
+    color: #8AB4F8;
+}
